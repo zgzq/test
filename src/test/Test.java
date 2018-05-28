@@ -74,7 +74,7 @@ public class Test {
 		map2.put("444", "eee");
 		map2.put("555", "ddd");
 		
-		
+		System.out.println("upd");
 		
 		for (Map.Entry<String,String> entry : map1.entrySet()) { 
         	for (Map.Entry<String,String> entry1 : map2.entrySet()) { 
