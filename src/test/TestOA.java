@@ -30,7 +30,7 @@ public class TestOA {
         try {
         	cManager = new ConnectionManagerOA();
         	zManager = new ConnectionManager();
-            
+            System.out.println("111");
             Calendar now = Calendar.getInstance();
             int year = now.get(Calendar.YEAR);
             int month = now.get(Calendar.MONTH)+1;
